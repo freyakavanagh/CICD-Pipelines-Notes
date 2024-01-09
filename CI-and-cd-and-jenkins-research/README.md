@@ -4,7 +4,7 @@
 
 - CI stands for Continuous Integration. 
 - It is a software development practice where code changes are automatically built, tested, and integrated into a shared repository frequently. 
-- Developers merge/commit code to the master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch.
+- Developers merge/commit code to the master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the many integration issues that usually happen when people wait for release day to merge their changes into the release branch.
 -  The main goal is to detect and address integration issues early in the development process.
 
 
@@ -14,7 +14,7 @@
 - It is an extension of CI that ensures that code changes can be reliably and efficiently delivered to production at any time without manual intervention. 
 - It involves automating the entire software release process up to the production environment but the deployment is completed manually.
 
-### Difference between CD and CD
+### Difference between CD and CDE
 
 Continuous Delivery (CD) focuses on automating the delivery process up to the production environment, the final deployment decision is manual. Continuous Deployment (CDE) is an extension of Continuous Delivery where changes are automatically deployed to production without manual intervention. Only a failed test will prevent a new change to be deployed to production.
 
@@ -27,20 +27,20 @@ Continuous Delivery (CD) focuses on automating the delivery process up to the pr
 
 ### Why use Jenkins? 
 
-Automation: Jenkins automates repetitive tasks, saving time and reducing errors.
-Integration: It integrates with various tools and technologies used in the software development process.
-Extensibility: Jenkins supports a wide range of plugins, allowing users to extend its functionality.
+Automation: Jenkins automates repetitive tasks, saving time and reducing errors.<br>
+Integration: It integrates with various tools and technologies used in the software development process.<br>
+Extensibility: Jenkins supports a wide range of plugins, allowing users to extend its functionality.<br>
 Also has packages for Windows, macOS, & Linux.
 
 ### Benefits of using Jenkins? 
 
-Time Savings: Automation reduces manual intervention and speeds up the development process.
-Consistency: Ensures consistent and repeatable builds and deployments.
+Time Savings: Automation reduces manual intervention and speeds up the development process.<br>
+Consistency: Ensures consistent and repeatable builds and deployments.<br>
 Integration: Integrates with various tools, making it a central hub for the development pipeline.
 
 ### Disadvantages of using Jenkins?
 
-Steep Learning Curve: Configuring Jenkins may be complex for beginners.
+Steep Learning Curve: Configuring Jenkins may be complex for beginners.<br>
 Resource Intensive: Jenkins can be resource-intensive, especially for large projects.
 
 ### Stages of Jenkins
@@ -77,8 +77,8 @@ Resource Intensive: Jenkins can be resource-intensive, especially for large proj
 
 ### Why build a pipeline? Business value?
 
-Faster Time to Market: Continuous pipelines accelerate the development and deployment process so they get to consumers faster.
-Reduced Errors: Automation reduces the likelihood of human errors in the deployment process, so user experience is smoother.
+Faster Time to Market: Continuous pipelines accelerate the development and deployment process so they get to consumers faster.<br>
+Reduced Errors: Automation reduces the likelihood of human errors in the deployment process, so user experience is smoother.<br>
 Consistency: Ensures a consistent and repeatable process for development, testing, and deployment.
 
 ### Create a general diagram of CICD
