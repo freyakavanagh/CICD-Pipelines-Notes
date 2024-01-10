@@ -33,8 +33,5 @@ Questions
 
 non technical watchers
 
-example final quality gate video
-
 Structure
-
 - One person introduces, we have a slot for every section in one, and then hand over, one person concludes.
